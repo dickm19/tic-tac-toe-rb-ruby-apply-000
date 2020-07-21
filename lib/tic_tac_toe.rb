@@ -62,6 +62,7 @@ end
  
 def valid_move?(board, move)
   if position_taken?(board,move)
+    
     return false
     
   elsif move >= 0 && move <= 8
@@ -89,7 +90,7 @@ end
 
 def play(board)
 
-  until over?(board) do
+  if !over?(board) do
     turn(board)
   end
   draw?(board)
