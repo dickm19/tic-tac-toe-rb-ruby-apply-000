@@ -91,6 +91,7 @@ def play(board)
   count = 1
   until over?(board) do
     turn(board)
+    draw?(board)
     count += 1
   end
   draw?(board)
