@@ -90,7 +90,7 @@ end
 
 def play(board)
 
-  if over?(board)
+  until over?(board) == true do
     draw?(board)
       puts "Cat's Game!"
     won?(board)
