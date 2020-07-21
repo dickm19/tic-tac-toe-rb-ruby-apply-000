@@ -91,13 +91,13 @@ end
 def play(board)
   
   
-  won?(board)
+  if won?(board)
     puts "Congratulations #{current_player(board)}!"
-  draw?(board)
+  elsif draw?(board)
     puts "Cat's game!"
-  x = over?(board)
+  end
 
-  until x do
+  until over?(board) do
     turn(board)
   end
 
