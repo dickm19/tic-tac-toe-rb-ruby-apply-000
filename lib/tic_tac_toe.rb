@@ -100,6 +100,7 @@ def play(board)
     puts "Congratulations #{winner(board)}!"
   else
     nil
+  end
 end
   
   
