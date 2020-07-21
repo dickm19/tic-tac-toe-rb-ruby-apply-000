@@ -4,7 +4,7 @@
       "/home/fortuitous-bookmark-4215/tic-tac-toe-rb-ruby-apply-000/lib/tic_tac_toe.rb": [
         1,
         1,
-        8793,
+        8809,
         null,
         null,
         null,
@@ -21,8 +21,8 @@
         null,
         null,
         1,
-        33,
-        235,
+        41,
+        299,
         null,
         null,
         null,
@@ -41,7 +41,7 @@
         null,
         null,
         1,
-        3,
+        9,
         2,
         null,
         null,
@@ -95,14 +95,12 @@
         1,
         null,
         12,
-        null,
         24,
         null,
         7,
-        2,
-        5,
-        1,
-        null,
+        7,
+        7,
+        7,
         null,
         null,
         null,
@@ -132,6 +130,6 @@
         null
       ]
     },
-    "timestamp": 1595362205
+    "timestamp": 1595362259
   }
 }
