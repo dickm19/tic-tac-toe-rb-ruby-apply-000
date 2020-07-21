@@ -88,10 +88,9 @@ end
   
 
 def play(board)
-  count = 1
+
   until over?(board) do
     turn(board)
-    count += 1
   end
   draw?(board)
     puts "Cat's Game!"
