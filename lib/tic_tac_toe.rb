@@ -86,7 +86,7 @@ def turn(board)
 end
   
 
-def play(board)  binding.pry
+def play(board)
   count = 1
   until over?(board) do
     turn(board)
