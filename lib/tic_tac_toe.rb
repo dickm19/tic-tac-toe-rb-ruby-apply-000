@@ -93,9 +93,7 @@ def play(board)
 
   until over?(board) do
     turn(board)
-    if over?(board)
-      break
-    end
+    break
   end
   
   if over?(board)
