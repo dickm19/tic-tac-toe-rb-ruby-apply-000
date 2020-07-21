@@ -90,6 +90,16 @@ end
 
 def play(board)
   
+  
+  won?(board)
+    puts "Congratulations #{current_player(board)}!"
+  draw?(board)
+    puts "Cat's game!"
+  x = over?(board)
+
+  until x do
+    turn(board)
+  end
 
     
 end
