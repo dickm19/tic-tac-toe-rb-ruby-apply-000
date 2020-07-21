@@ -104,7 +104,7 @@ end
   
   
 def turn_count(board)
-  turn = 1
+  turn = 0
   board.each do |element|
     if element == "X" || element == "O"
       turn += 1
