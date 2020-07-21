@@ -78,7 +78,7 @@ def turn(board)
   input = gets.strip
   index = input_to_index(input)
  
-  until valid_move?(board, index) == false do
+  until !valid_move?(board, index) do
     
     puts "Please enter 1-9:"
     
@@ -98,7 +98,7 @@ end
 
 
 def play(board)
-
+  binding.pry
   count = 1
   until over?(board) do
     turn(board)
@@ -114,7 +114,7 @@ end
   
   
 def turn_count(board)
-  turn = 1
+  turn = 0
   board.each do |element|
     if element == "X" || element == "O"
       turn += 1
