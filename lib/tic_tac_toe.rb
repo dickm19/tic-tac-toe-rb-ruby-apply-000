@@ -74,7 +74,6 @@ def valid_move?(board, move)
 end
 
 def turn(board)
-  valid_move(board)
   until !valid_move?(board, index) do
     
     puts "Please enter 1-9:"
